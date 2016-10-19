@@ -1,6 +1,10 @@
 <hazelcast xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.hazelcast.com/schema/config
+<<<<<<< HEAD
                                http://www.hazelcast.com/schema/config/hazelcast-config-3.6.xsd"
+=======
+                               http://www.hazelcast.com/schema/config/hazelcast-config-3.7.xsd"
+>>>>>>> upstream/master
            xmlns="http://www.hazelcast.com/schema/config">
     <network>
         <join>
@@ -8,9 +12,19 @@
         </join>
     </network>
 
+<<<<<<< HEAD
     <!--<map name="persons">
         <eviction-policy>LRU</eviction-policy>
         <max-size policy="used_heap_size">20</max-size>
         <min-eviction-check-millis>0</min-eviction-check-millis>
     </map>-->
+=======
+    <map name="persons">
+    <!--
+        <eviction-policy>LRU</eviction-policy>
+        <max-size policy="used_heap_size">20</max-size>
+    -->
+    </map>
+
+>>>>>>> upstream/master
 </hazelcast>

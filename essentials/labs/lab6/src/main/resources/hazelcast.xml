@@ -1,6 +1,10 @@
 <hazelcast xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.hazelcast.com/schema/config
+<<<<<<< HEAD
                                http://www.hazelcast.com/schema/config/hazelcast-config-3.6.xsd"
+=======
+                               http://www.hazelcast.com/schema/config/hazelcast-config-3.7.xsd"
+>>>>>>> upstream/master
            xmlns="http://www.hazelcast.com/schema/config">
 
     <network>
